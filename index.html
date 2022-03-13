@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--Import Google Icon Font-->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <!--Import materialize.css-->
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="css/materialize.min.css"
+      media="screen,projection"
+    />
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+
+  <body>
+    <table>
+      <thead>
+        <tr>
+          <th></th>
+          <th>Alogrand</th>
+          <th>Avalanche</th>
+          <th>Fantom</th>
+          <th>Cosmos</th>
+          <th>Polkadot</th>
+          <th>Solana</th>
+          <th>Near</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>EVM Compatible</td>
+          <td>NO (AVM)</td>
+          <td>YES</td>
+          <td>YES</td>
+          <td>YES (Evmos, “EVM-on-Cosmos”)</td>
+          <td>YES (Moonbeam parachain)</td>
+          <td></td>
+          <td>YES (Project Aurora)</td>
+        </tr>
+        <tr>
+          <td>Finality</td>
+          <td>4.4s</td>
+          <td>3s (Usually 1s or less)</td>
+          <td>1s (with little load, up to 30m with load)/td></td>
+          <td>6s</td>
+          <td>12-60s</td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>Actual TPS</td>
+          <td>1,200</td>
+          <td></td>
+          <td>20</td>
+          <td></td>
+          <td>166</td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>Theoretical TPS</td>
+          <td>3,000</td>
+          <td>4,500 tps per subnet</td>
+          <td>300,000</td>
+          <td>1,000 per zone/hub</td>
+          <td>1,500 per parachain</td>
+          <td></td>
+          <td>100,000</td>
+        </tr>
+        <tr>
+          <td>Validators</td>
+          <td>2000 nodes/400 voters</td>
+          <td>1200+</td>
+          <td>74</td>
+          <td>200 per zone</td>
+          <td>1000, but at least 14 per parachain</td>
+          <td></td>
+          <td>650 nodes/100 validators</td>
+        </tr>
+        <tr>
+          <td>DEX</td>
+          <td>https://app.algodex.com/ https://app.wagmiswap.io/</td>
+          <td>https://traderjoexyz.com/</td>
+          <td>https://beets.fi/</td>
+          <td>https://app.osmosis.zone/</td>
+          <td>https://solarflare.io/</td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>Notes</td>
+          <td>Blockchain size growing quickly</td>
+          <td>
+            3 Chains (X, P, & C-CHAIN) <br />
+            A subnet can validate a single or many blockchains with a single
+            validator set (Shared security is optional)<br />
+            Unlocking schedule of early investors
+          </td>
+          <td>DAG</td>
+          <td>
+            ATOM is more of the bridge/hub of all these other
+            blockchains/zones<br />
+            Every Zone and Hub in Cosmos has their own validator set and
+            different trust assumptions. Researching a shared security model
+          </td>
+          <td>
+            100 parachain limit<br />
+            Shared Security is mandatory with the relay chain
+          </td>
+          <td></td>
+          <td>35% of the token supply is held by insiders</td>
+        </tr>
+      </tbody>
+    </table>
+    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+  </body>
+</html>
